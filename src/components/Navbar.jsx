@@ -1,17 +1,30 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const Container = styled.div`
-    height: 60px;
-    background-color: black;
-`
+  height: 100px;
+`;
+const Wrapper = styled.div`
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+`;
+const Left = styled.div``
+const Center = styled.div``
+const Right = styled.div``
+
 
 const Navbar = () => {
-    return (
-        <Container>
-            navbar
-        </Container>
-    )
-}
+  return (
+    <Container>
+      <Wrapper>
+          <Left>left</Left>
+          <Center>center</Center>
+          <Right>right</Right>
 
-export default Navbar
+      </Wrapper>
+    </Container>
+  );
+};
+
+export default Navbar;
