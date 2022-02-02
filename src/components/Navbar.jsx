@@ -4,7 +4,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div `
-  height: 100px;
+  height: 75px;
 `;
 const Wrapper = styled.div `
   padding: 10px 20px;
@@ -44,11 +44,15 @@ const Logo = styled.h1 `
 
 const Right = styled.div `
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 `;
 
 const MenuItem = styled.div `
   font-size: 14px;
   cursor: pointer;
+  margin-left: 25px;
 `;
 
 const Navbar = () => {
@@ -59,19 +63,24 @@ const Navbar = () => {
         <
         Left >
         <
-        Language > EN < /Language> <
+        Language > EN < /Language>{" "} <
         SearchContainer >
         <
         Input / >
         <
-        Search / >
-        <
-        /SearchContainer> <
-        /Left> <
+        Search style = {
+            {
+                color: "gray",
+                fontSize: 16,
+            }
+        }
+        />{" "} <
+        /SearchContainer>{" "} <
+        /Left>{" "} <
         Center >
         <
-        Logo > Gearbrokers < /Logo> <
-        /Center> <
+        Logo > Gearbrokers < /Logo>{" "} <
+        /Center>{" "} <
         Right >
         <
         MenuItem > REGISTER < /MenuItem> <MenuItem> SIGN IN </MenuItem >
@@ -83,10 +92,10 @@ const Navbar = () => {
         <
         ShoppingCartOutlined / >
         <
-        /Badge> <
-        /MenuItem> <
-        /Right> <
-        /Wrapper> <
+        /Badge>{" "} <
+        /MenuItem>{" "} <
+        /Right>{" "} <
+        /Wrapper>{" "} <
         /Container>
     );
 };
