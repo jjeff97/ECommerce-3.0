@@ -13,15 +13,36 @@ const Wrapper = styled.div`
 	height: 100%;
 `;
 const Slide = styled.div`
+    width: 100vw;
+    height: 100vh;
 	display: flex;
 	align-items: center;
 `;
 const ImgContainer = styled.div`
+    height:100%;
 	flex: 1;
 `;
-const Image = styled.img``;
+const Image = styled.img`
+    height: 80%;
+`;
 const InfoContainer = styled.div`
 	flex: 1;
+    padding: 50px;
+
+`;
+
+const Title = styled.h1`
+font-size: 70px;
+`;
+const Description = styled.p`
+margin: 50px 0px;
+font-size: 20px;
+font-weight: 500;
+letter-spacing: 3px;
+`;
+const Button = styled.button`
+padding: 10px;
+font-size: 20px;
 `;
 
 const Arrow = styled.div`
@@ -53,7 +74,11 @@ const Slider = () => {
 					<ImgContainer>
 						<Image src="https://www.cnet.com/a/img/xeP-01S5f7Xof9wUOimtWss3XfU=/940x0/2021/12/27/4f7e1226-436a-4743-a92c-3f729f263148/p1055536.jpg" />
 					</ImgContainer>
-					<InfoContainer></InfoContainer>
+					<InfoContainer>
+						<Title>EVO</Title>
+						<Description>4K OLED 97" SMART TELEVSION</Description>
+						<Button>SHOP NOW</Button>
+					</InfoContainer>
 				</Slide>
 			</Wrapper>
 			<Arrow direction="right">
