@@ -8,6 +8,7 @@ const Container = styled.div`
 	height: 100vh;
 	display: flex;
 	position: relative;
+	overflow: hidden;
 `;
 const Wrapper = styled.div`
 	height: 100%;
@@ -18,6 +19,7 @@ const Slide = styled.div`
     height: 100vh;
 	display: flex;
 	align-items: center;
+    background-color: #${props=>props.bg};
 `;
 const ImgContainer = styled.div`
     height:100%;
@@ -68,33 +70,33 @@ const Arrow = styled.div`
 const Slider = () => {
 	return (
 		<Container>
-			<Arrow direction="left">
+			<Arrow direction="left" onClick={() => handleClick("left")}>
 				<ArrowLeftOutlined />
 			</Arrow>
 
 			<Wrapper>
-				<Slide>
+				<Slide bg="#6495ED">
 					<ImgContainer>
 						<Image src="https://www.cnet.com/a/img/xeP-01S5f7Xof9wUOimtWss3XfU=/940x0/2021/12/27/4f7e1226-436a-4743-a92c-3f729f263148/p1055536.jpg" />
 					</ImgContainer>
 					<InfoContainer>
-						<Title>EVO</Title>
+						<Title>TELEVISIONS</Title>
 						<Description>4K OLED 97" SMART TELEVSION</Description>
 						<Button>SHOP NOW</Button>
 					</InfoContainer>
 				</Slide>
-                <Slide>
+				<Slide bg="#6495ED">
 					<ImgContainer>
-						<Image src="https://www.cnet.com/a/img/xeP-01S5f7Xof9wUOimtWss3XfU=/940x0/2021/12/27/4f7e1226-436a-4743-a92c-3f729f263148/p1055536.jpg" />
+						<Image src="https://www.cnet.com/a/img/KQn1e4rr2jb3zgiT7oFqf3D0J6s=/1200x675/2021/10/03/5c27a4a2-9365-4182-9738-0cab4ca42cc0/img-5704.jpg" />
 					</ImgContainer>
 					<InfoContainer>
-						<Title>EVO</Title>
+						<Title>LAPTOPS</Title>
 						<Description>4K OLED 97" SMART TELEVSION</Description>
 						<Button>SHOP NOW</Button>
 					</InfoContainer>
 				</Slide>
 			</Wrapper>
-			<Arrow direction="right">
+			<Arrow direction="right" onClick={() => handleClick("right")}>
 				<ArrowRightOutlined />
 			</Arrow>
 		</Container>
