@@ -11,6 +11,7 @@ const Container = styled.div`
 `;
 const Wrapper = styled.div`
 	height: 100%;
+    display: flex;
 `;
 const Slide = styled.div`
     width: 100vw;
@@ -43,6 +44,8 @@ letter-spacing: 3px;
 const Button = styled.button`
 padding: 10px;
 font-size: 20px;
+background-color: transparent;
+cursor: pointer;
 `;
 
 const Arrow = styled.div`
@@ -71,6 +74,16 @@ const Slider = () => {
 
 			<Wrapper>
 				<Slide>
+					<ImgContainer>
+						<Image src="https://www.cnet.com/a/img/xeP-01S5f7Xof9wUOimtWss3XfU=/940x0/2021/12/27/4f7e1226-436a-4743-a92c-3f729f263148/p1055536.jpg" />
+					</ImgContainer>
+					<InfoContainer>
+						<Title>EVO</Title>
+						<Description>4K OLED 97" SMART TELEVSION</Description>
+						<Button>SHOP NOW</Button>
+					</InfoContainer>
+				</Slide>
+                <Slide>
 					<ImgContainer>
 						<Image src="https://www.cnet.com/a/img/xeP-01S5f7Xof9wUOimtWss3XfU=/940x0/2021/12/27/4f7e1226-436a-4743-a92c-3f729f263148/p1055536.jpg" />
 					</ImgContainer>
