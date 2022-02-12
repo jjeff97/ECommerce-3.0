@@ -4,21 +4,21 @@ export const sliderItems = [
 	{
 		id: 1,
 		img: "https://www.homenish.com/wp-content/uploads/2020/12/Flat.jpg",
-		title: "Televisions",
+		title: "ACME 40inch FLAT SCREEN",
 		desc: "4K OLED LARGE SCREEN",
 		bg: "f5fafd"
 	},
 	{
 		id: 2,
 		img: "https://cdn5.vectorstock.com/i/1000x1000/27/94/laptop-vector-1502794.jpg",
-		title: "Laptops",
+		title: "ACME 15inch LAPTOP",
 		desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
 		bg: "fcf1ed"
 	},
 	{
 		id: 3,
 		img: "https://c1.neweggimages.com/ProductImage/83-360-267-10.jpg",
-		title: "PCs",
+		title: "ACME DESKTOP PC",
 		desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
 		bg: "fbf0f4"
 	}
@@ -27,18 +27,18 @@ export const sliderItems = [
 export const categories = [
 	{
 		id: 1,
-		img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-		title: "SHIRT STYLE!"
+		img: "https://i.rtings.com/assets/pages/PtBw4Lf8/best-tv-medium.jpg",
+		title: "TELEVISIONS"
 	},
 	{
 		id: 2,
-		img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-		title: "LOUNGEWEAR LOVE"
+		img: "https://images.app.goo.gl/unvrWsK1ZLPuY58z5",
+		title: "LAPTOPS"
 	},
 	{
 		id: 3,
-		img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-		title: "LIGHT JACKETS"
+		img: "http://www.pcsforpeople.org/wp-content/uploads/2018/04/optiplexline-300x231.png",
+		title: "DESKTOP COMPUTERS"
 	}
 ];
 
