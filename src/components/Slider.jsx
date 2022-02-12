@@ -70,20 +70,29 @@ const Arrow = styled.div`
 const Wrapper = styled.div`
 	height: 100%;
 	display: flex;
-	transform: translatex(0vw);
+	transform: translatex(${props=>props.slideIndex * -100}vw);
 `;
 
 const Slider = () => {
     const [slideIndex, setSlideIndex] = useState(0);
 
-	const handleClick = (direction) => {};
+    const handleClick = (direction) => {
+
+        if (direction === "left") {
+            setSlideIndex(slideIndex > 0 ? slideIndex-1 : 2 )
+        } else {
+            setSlideIndex(slideIndex < 2 ? slideIndex +1 : 0)
+        }
+        
+    };
+
 	return (
 		<Container>
 			<Arrow direction="left" onClick={() => handleClick("left")}>
 				<ArrowLeftOutlined />
 			</Arrow>
 
-            <Wrapper>
+            <Wrapper  slideIndex={slideIndex}>
                 {sliderItems.map((item) => (
                     <Slide bg={item.bg}>
 					<ImgContainer>

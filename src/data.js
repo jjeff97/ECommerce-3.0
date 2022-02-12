@@ -3,22 +3,22 @@
 export const sliderItems = [
 	{
 		id: 1,
-		img: "https://i.ibb.co/XsdmR2c/1.png",
-		title: "SUMMER SALE",
-		desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+		img: "https://www.homenish.com/wp-content/uploads/2020/12/Flat.jpg",
+		title: "Televisions",
+		desc: "4K OLED LARGE SCREEN",
 		bg: "f5fafd"
 	},
 	{
 		id: 2,
-		img: "https://i.ibb.co/DG69bQ4/2.png",
-		title: "AUTUMN COLLECTION",
+		img: "https://cdn5.vectorstock.com/i/1000x1000/27/94/laptop-vector-1502794.jpg",
+		title: "Laptops",
 		desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
 		bg: "fcf1ed"
 	},
 	{
 		id: 3,
-		img: "https://i.ibb.co/cXFnLLV/3.png",
-		title: "LOUNGEWEAR LOVE",
+		img: "https://c1.neweggimages.com/ProductImage/83-360-267-10.jpg",
+		title: "PCs",
 		desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
 		bg: "fbf0f4"
 	}
