@@ -2,6 +2,8 @@
 
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import styled from "styled-components";
+import { useState } from "react";
+import { sliderItems } from "../data";
 
 const Container = styled.div`
 	width: 100%;
@@ -81,27 +83,21 @@ const Slider = () => {
 				<ArrowLeftOutlined />
 			</Arrow>
 
-			<Wrapper>
-				<Slide bg="#6495ED">
+            <Wrapper>
+                {sliderItems.map((item) => (
+                    <Slide bg={item.bg}>
 					<ImgContainer>
-						<Image src="https://www.cnet.com/a/img/xeP-01S5f7Xof9wUOimtWss3XfU=/940x0/2021/12/27/4f7e1226-436a-4743-a92c-3f729f263148/p1055536.jpg" />
+						<Image src={item.img} />
 					</ImgContainer>
 					<InfoContainer>
-						<Title>TELEVISIONS</Title>
-						<Description>4K OLED 97" SMART TELEVSION</Description>
+						<Title>{item.title}</Title>
+						<Description>{item.desc}</Description>
 						<Button>SHOP NOW</Button>
 					</InfoContainer>
 				</Slide>
-				<Slide bg="#6495ED">
-					<ImgContainer>
-						<Image src="https://www.cnet.com/a/img/KQn1e4rr2jb3zgiT7oFqf3D0J6s=/1200x675/2021/10/03/5c27a4a2-9365-4182-9738-0cab4ca42cc0/img-5704.jpg" />
-					</ImgContainer>
-					<InfoContainer>
-						<Title>LAPTOPS</Title>
-						<Description>4K OLED 97" SMART TELEVSION</Description>
-						<Button>SHOP NOW</Button>
-					</InfoContainer>
-				</Slide>
+				
+                ))}
+				
 			</Wrapper>
 			<Arrow direction="right" onClick={() => handleClick("right")}>
 				<ArrowRightOutlined />
