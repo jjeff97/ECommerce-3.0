@@ -32,12 +32,12 @@ export const categories = [
 	},
 	{
 		id: 2,
-		img: "https://images.app.goo.gl/unvrWsK1ZLPuY58z5",
+		img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/laptops-lead-1542407159.jpg",
 		title: "LAPTOPS"
 	},
 	{
 		id: 3,
-		img: "http://www.pcsforpeople.org/wp-content/uploads/2018/04/optiplexline-300x231.png",
+		img: "https://storage-asset.msi.com/event/cnd/best-gaming-desktop-pc/images/2021/kv-pd-2121.png",
 		title: "DESKTOP COMPUTERS"
 	}
 ];
