@@ -45,27 +45,27 @@ export const categories = [
 export const popularProducts = [
 	{
 		id: 1,
-		img: "https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png"
+		img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6453/6453209_sd.jpg;maxHeight=640;maxWidth=550"
 	},
 	{
 		id: 2,
-		img: "https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388"
+		img: "https://media.wired.com/photos/5f99f62eed97b6b30c26618a/16:9/w_2399,h_1349,c_limit/Gear-TCL-6-Series-2020-SOURCE-TCL-2.jpg"
 	},
 	{
 		id: 3,
-		img: "https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png"
+		img: "https://www.trustedreviews.com/wp-content/uploads/sites/54/2020/10/best-cheap-tv.jpg"
 	},
 	{
 		id: 4,
-		img: "https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png"
+		img: "https://cdn.vox-cdn.com/thumbor/_LxVAp593IAMI8eni7sgqQtuBPc=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/67870193/vpavic_4291_20201113_0366.0.0.jpg"
 	},
 	{
 		id: 5,
-		img: "https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png"
+		img: "https://media.cnn.com/api/v1/images/stellar/prod/210804125008-razer-blade-15-lead.jpg?q=w_4032,h_2268,x_0,y_0,c_fill"
 	},
 	{
 		id: 6,
-		img: "https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png"
+		img: "https://i.pcmag.com/imagery/reviews/05l2EoHgxLKDb5dq2UGTpdR-17.fit_lim.size_625x365.v1604675195.jpg"
 	},
 	{
 		id: 7,
