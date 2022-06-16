@@ -8,12 +8,13 @@ const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    `;
+    ;
+    `
 
 const Products = () => {
     return (
         <Container>
-            {popularProducts.map(item => (
+            {popularProducts.map((item) => (
                 <Product item={item} key={item.id} />
             ))}
         </Container>
