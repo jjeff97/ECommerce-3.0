@@ -69,10 +69,10 @@ export const popularProducts = [
 	},
 	{
 		id: 7,
-		img: "https://png.pngitem.com/pimgs/s/45-455957_computer-pc-png-transparent-free-images-hd-image.png"
+		img: "https://pngimg.com/uploads/computer_pc/computer_pc_PNG102137.png"
 	},
 	{
 		id: 8,
-		img: "https://png.pngitem.com/pimgs/s/23-230933_desktop-computer-front-view-hd-png-download.png"
+		img: "https://pngimg.com/uploads/computer_pc/computer_pc_PNG102095.png"
 	},
 ];
